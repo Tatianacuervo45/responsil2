@@ -8,6 +8,7 @@ header{
   justify-content: center;
   background-color: #1E172F;
 }
+
 .b2{
   display: flex;
   justify-content: center;
@@ -37,9 +38,10 @@ font-size: 20px;
   display:inline-block; 
 }
 .btn45{
- 
-  width: 110px;
-  height: 20px;
+  color: #F1F2F7;
+  border: none;
+ padding: 8px 15px;
+  background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
 }
 
 .sec1{
@@ -327,7 +329,7 @@ padding: 20px;
   }
   .menu{
   margin-top: 20px;
-    width: 370px;
+    width: 480px;
     height: 30px;
   padding: 10px;
   }
@@ -338,16 +340,17 @@ padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+   width: 480px;
   }
   .ultimo2{
     width: 300px;
+    
   }
  
 }
 
 
-@media (max-width: 448px){
+@media (max-width: 480px){
   header{
     width: 100%;
     display: flex;
@@ -355,39 +358,66 @@ padding: 20px;
     flex-direction: column;
     background-color: #1E172F;
   }
+  h2{
+      font-size: 50px;
+      width: 480px;
+      background-color: #F1F2F7;
+  }
+  .secd2{
+      background-color: aqua;
+      width: 480px;
+  }
   .pr2{
     background-color:aliceblue;
   height: auto;
   font-size: 35px;
-  width: 500px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  margin-top: 50px;
   }
   .b2{
+      background-color: #1E172F;
     display: flex;
     justify-content: center;
-    width: 100vh;  
+    width: 480px;  
+  }
+  .btn45{
+    text-decoration: none;
+    background-image: linear-gradient(-225deg, #FF3CAC 0%, #562b7c 52%, #2B86C5 100%);
+padding: 10px 20PX;
+
+color: aliceblue;
+margin-top: 0;
+border:aliceblue;
+
   }
   .p1{
-    
-    background-color: aqua;
+   width: 480px;
+    background-color: #1E172F;
   }
-  .sec1{
-    width: 650px;
-  }
+ 
   .utb{
     height: 40px;
-  }
+  } .menu{
+    margin-top: 20px;
+      width: 480px;
+      height: 50px;
+    padding: 10px;
+    }
   .textm{
     font-size: 70px;
     width: 600px  ;
   }
   .secd3{
     height: 600px;
-    width: 650px;
-    
+    width: 480px;
+   
+  }
+  .ultimo2{
+    background-color: #F1F2F7;
   }
   .secd21{
     display: flex;
@@ -400,12 +430,13 @@ align-items: center;
   }
   .cajas{
     background-color: #1E172F;
-width: 650px;
+width: 480px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:  space-evenly;
   align-items: center;
-  height: 420vh;
+  height: 1000vh;
+  
   }
   .lorena{
     width: 320px;
@@ -414,7 +445,7 @@ width: 650px;
     padding: 50px;
   }
   header{
-    width: 650px;
+    width: 480px;
   }
   h1{
     padding: 20px;
@@ -424,13 +455,14 @@ width: 650px;
     padding: 20px;
     font-size: 30px;
     background-color: #F1F2F7;
+    width: 480px;
   }
   .pert{
     font-size: 25px;
   }
   .primeroc{
-    width: 650px;
-  height:800px ;
+    width: 480px;
+  height:1000px ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -441,53 +473,72 @@ gap: 30px;
     display: flex;
   justify-content: center;
 align-items: center;
-  width: 650px;
+  width: 480px;
   height:800px;
+  margin-top: -1px;
   }
   .secd21{
    padding: 20px;
 
+
   }
   .total{
     background-color: #F1F2F7;
-    width: 650px;
-    height: 130vh;
+    width: 480px;
+    height: 300vh;
     display:flex;
     justify-content: space-around;
     flex-direction: column;
 align-items: center;
   }
   .ditex{
-width: 650px;
+width: 480px;
+margin-top: -1px;
+height: auto;
   }
   .btn1{
     text-decoration: none;
 padding: 20px;
 color: aliceblue;
 margin-top: 0;
-border:aliceblue; 
+border:aliceblue;
 background-color: #F03997;
 }
 .sec1{
-width: 650px;
-  height:170vh ;
+width: 480px;
+  height:180vh ;
   display: flex;
   flex-direction: column;
-  background-color: #255040;
+  background-color: #502542;
 }
   .btn2{
     text-decoration: none;
     padding: 20px;
     color: aliceblue;
     margin-top: 0;
-    border:aliceblue; 
+    border:aliceblue;
     background-color: #2E2550;
   }
   .sec2{
-    width: 650px;
+    width: 480px;
     height: 140vh;
     display: flex;
     flex-direction: column;
-background-color: #F1F2F7;
+background-color: violet;
   }
-}
+  .sec3{
+      width: 480px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+  background-color: #F03997;
+    }
+    .pfinal{
+      background-color: #F1F2F7;
+  display: flex;  
+  flex-direction: column;
+  height: 300px;
+  margin-top: 30px;
+  }
+
+}  
