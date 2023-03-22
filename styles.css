@@ -352,8 +352,7 @@ padding: 20px;
 
 
 
-
-@media (max-width: 480px){
+@media (max-width: 400px){
   header{
     width: 100%;
     display: flex;
@@ -363,16 +362,16 @@ padding: 20px;
   }
   h2{
       font-size: 50px;
-      width: 410px;
+      width: 400px;
       background-color: #F1F2F7;
   }
   .secd2{
       background-color: aqua;
-      width: 410px;
+      width: 400px;
   }
   .pr2{
     background-color:aliceblue;
-  height: auto;
+  height: 300vh;
   font-size: 35px;
   width: 320px;
   display: flex;
@@ -385,7 +384,7 @@ padding: 20px;
       background-color: #1E172F;
     display: flex;
     justify-content: center;
-    width: 410px;  
+    width: 400px;  
   }
   .btn45{
     text-decoration: none;
@@ -398,7 +397,7 @@ border:aliceblue;
 
   }
   .p1{
-   width: 410px;
+   width: 400px;
     background-color: #1E172F;
   }
  
@@ -406,7 +405,7 @@ border:aliceblue;
     height: 40px;
   } .menu{
     margin-top: 20px;
-      width: 410px;
+      width: 400px;
       height: 50px;
     padding: 10px;
     }
@@ -416,7 +415,7 @@ border:aliceblue;
   }
   .secd3{
     height: 600px;
-    width: 410px;
+    width: 400px;
    
   }
   .ultimo2{
@@ -433,7 +432,7 @@ align-items: center;
   }
   .cajas{
     background-color: #1E172F;
-width: 410px;
+width: 400px;
     display: flex;
     flex-direction: column;
     justify-content:  space-evenly;
@@ -448,7 +447,7 @@ width: 410px;
     padding: 50px;
   }
   header{
-    width: 410px;
+    width: 400px;
   }
   h1{
     padding: 20px;
@@ -458,13 +457,13 @@ width: 410px;
     padding: 20px;
     font-size: 30px;
     background-color: #F1F2F7;
-    width: 410px;
+    width: 400px;
   }
   .pert{
     font-size: 25px;
   }
   .primeroc{
-    width: 410px;
+    width: 400px;
   height:1000px ;
   display: flex;
   flex-direction: column;
@@ -476,7 +475,7 @@ gap: 30px;
     display: flex;
   justify-content: center;
 align-items: center;
-  width: 410px;
+  width: 400px;
   height:800px;
   margin-top: -1px;
   }
@@ -487,7 +486,7 @@ align-items: center;
   }
   .total{
     background-color: #F1F2F7;
-    width: 410px;
+    width: 400px;
     height: 300vh;
     display:flex;
     justify-content: space-around;
@@ -495,7 +494,7 @@ align-items: center;
 align-items: center;
   }
   .ditex{
-width: 410px;
+width: 400px;
 margin-top: -1px;
 height: auto;
   }
@@ -523,14 +522,14 @@ width: 350px;
     background-color: #2E2550;
   }
   .sec2{
-    width: 410px;
+    width: 400px;
     height: 140vh;
     display: flex;
     flex-direction: column;
 background-color: violet;
   }
   .sec3{
-      width: 410px;
+      width: 400px;
       height: auto;
       display: flex;
       flex-direction: column;
@@ -542,6 +541,9 @@ background-color: violet;
   flex-direction: column;
   height: 100px;
   margin-top: 30px;
+  }
+  .im2{
+    width: 400px;
   }
 
 }  
