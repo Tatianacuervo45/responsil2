@@ -498,7 +498,7 @@ align-items: center;
   .total{
     background-color: #F1F2F7;
     width: 400px;
-    height: 300vh;
+    height: 500vh;
     display:flex;
     justify-content: space-around;
     flex-direction: column;
