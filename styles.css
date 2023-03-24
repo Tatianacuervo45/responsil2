@@ -420,10 +420,7 @@ border:aliceblue;
     padding: 10px;
     background-color: aqua;
     }
-  .textm{
-    font-size: 70px;
-    width: 600px  ;
-  }
+  
   .secd3{
     height: 600px;
     width: 400px;
@@ -464,7 +461,9 @@ width: 400px;
     padding: 20px;
   }
  
-  .textm{
+ .textm{
+      font-size: 70px;
+    margin-top: 200px;
     padding: 20px;
     font-size: 30px;
     background-color: #F1F2F7;
