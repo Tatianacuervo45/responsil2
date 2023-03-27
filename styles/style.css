@@ -140,9 +140,9 @@ h4{
 }
 
 .secd21{
-  display: flex;
+  
   justify-content: center;
-  width: 50%;
+  width: 100%;
   height: 700px;
   display: flex;
   justify-content: center;
@@ -288,6 +288,23 @@ h6{
   height: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 992px) {
   .menu{
     margin-top: 20px;
@@ -312,6 +329,13 @@ padding: 20px;
 
 
 
+
+
+
+
+
+
+
 @media (max-width: 768px){
   .pr2{
     gap: 30px;
@@ -326,10 +350,11 @@ padding: 20px;
   }
   .cajas{  
     height: 600px;
+ 
   }
   .menu{
   margin-top: 20px;
-    width: 480px;
+    width: 410px;
     height: 30px;
   padding: 10px;
   }
@@ -358,7 +383,31 @@ padding: 20px;
 
 
 
-@media (max-width: 400px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
   header{
     width: 100%;
     display: flex;
@@ -371,19 +420,21 @@ padding: 20px;
 height: 400px;
   }
   h2{
-      font-size: 50px;
-      width: 400px;
+    
+      width: 100%;
+      font-size: 40px;
       background-color: #F1F2F7;
   }
   .secd2{
       background-color: aqua;
-      width: 400px;
+      width: 100%;
+      font-size: 40px;
   }
   .pr2{
     background-color:aliceblue;
   height: 300vh;
   font-size: 35px;
-  width: 320px;
+  width: 290px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -394,7 +445,7 @@ height: 400px;
       background-color: #1E172F;
     display: flex;
     justify-content: center;
-    width: 400px;  
+    width: 100%;  
   }
   .btn45{
     text-decoration: none;
@@ -407,7 +458,7 @@ border:aliceblue;
 
   }
   .p1{
-   width: 400px;
+   width: 100%;
     background-color: #1E172F;
   }
  
@@ -415,24 +466,22 @@ border:aliceblue;
     height: 40px;
   } .menu{
     margin-top: 20px;
-      width: 400px;
+      width: 100%;
       height: 50px;
     padding: 10px;
-    background-color: aqua;
+    background-color: #1E172F
     }
-  
-  .secd3{
-    height: 600px;
-    width: 400px;
-   
+  .ultimo{
+    background-color:#F1F2F7 ;
   }
+  
   .ultimo2{
     background-color: #F1F2F7;
   }
   .secd21{
     display: flex;
   justify-content: center;
-  width: 50%;
+  width: 100%;
   height:500px;
   display: flex;
   justify-content: center;
@@ -440,12 +489,12 @@ align-items: center;
   }
   .cajas{
     background-color: #1E172F;
-width: 400px;
+width: 100%;
     display: flex;
     flex-direction: column;
     justify-content:  space-evenly;
   align-items: center;
-  height: 390vh;
+  height: 460vh;
   
   }
   .lorena{
@@ -454,75 +503,79 @@ width: 400px;
   .secd21{
     padding: 50px;
   }
-  header{
-    width: 400px;
-  }
+
   h1{
-    padding: 20px;
+    font-size: 90px;
+    padding: 10px;
+  }
+  .total{
+    background-color: #f00b0b;
+    width: 100%;
   }
  
- .textm{
-      font-size: 70px;
-    margin-top: 200px;
+  .textm{
+    font-size: 70px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 15px;
     background-color: #F1F2F7;
-    width: 400px;
+    width: 100%;
   }
   .pert{
     font-size: 25px;
   }
- .primeroc{
-    width: 400px;
-  height:1500px ;
+  .primeroc{
+  width: 100%;
+  height:900px ;
   display: flex;
   flex-direction: column;
   justify-content: center;
 align-items: center;
 gap: 30px;
+background-color: #2E2550;
   }
   .segundoc{
-    display: flex;
-  justify-content: center;
-align-items: center;
-  width: 400px;
-    height:700px;
-  margin-top: -1px;
+    display:none;
   }
   .secd21{
-   padding: 20px;
-
+ width: 100%;
+background-color: #F1F2F7;
+padding: 0;
 
   }
   .total{
-    background-color: #F1F2F7;
-    width: 400px;
-    height: 500vh;
-    display:flex;
-    justify-content: space-around;
-    flex-direction: column;
-align-items: center;
+    
+    width: 100%;
+    display: block;
+    
+    
+
   }
   .ditex{
-width: 400px;
+width: 100%;
 margin-top: -1px;
 height: auto;
+margin-top: 20px;
   }
-  .btn1{
-    text-decoration: none;
-padding: 20px;
-color: aliceblue;
-margin-top: 0;
-border:aliceblue;
-background-color: #F03997;
+.btn1{
+  text-decoration: none;
+  padding: 20px;
+  color: aliceblue;
+  margin-top: 0;
+  border:aliceblue;
+  background-color: #F03997;
 }
 .sec1{
-  margin-top: 200px;
-width: 400px;
-  height:300vh ;
+  margin-top: 20px;
+  width: 100%;
+  height:auto;
   display: flex;
   flex-direction: column;
-  background-color: #de24a0;
+  background-color: #1E172F;
+}
+.lorena{
+  font-size: 30px;
+  width: 200px;
+  height: 700px;
 }
   .btn2{
     text-decoration: none;
@@ -533,28 +586,33 @@ width: 400px;
     background-color: #2E2550;
   }
   .sec2{
-    width: 400px;
-    height: 140vh;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-background-color: violet;
+  background-color: violet;
   }
   .sec3{
-      width: 400px;
+      width: 100%;
       height: auto;
       display: flex;
       flex-direction: column;
-  background-color: #1E172F;
+    background-color: #F1F2F7;
     }
-    .pfinal{
+  .pfinal{
       background-color: #F1F2F7;
-  display: flex;  
-  flex-direction: column;
-  height: 100px;
-  margin-top: 30px;
+    display: flex;  
+    flex-direction: column;
+    height: 100px;
+    margin-top: 30px;
   }
   .im2{
-    width: 400px;
+    width: 350px;
+    height: 200px;
   }
 
+  .secd3{
+    width: 100%;
+    height: auto;
+  } 
 }  
